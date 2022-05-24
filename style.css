@@ -1,0 +1,148 @@
+#navbar {
+    list-style: none;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#navbar li {
+    display: inline;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-family: 'Playfair Display';
+    padding-top: 5px;
+    padding-bottom: 5px;
+    word-spacing: 1px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#navbar li a:hover {
+    text-decoration: none;
+    color: rgb(126, 205, 255);
+}
+
+#FWIMG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#box {
+    width: 90%;
+    border: 5px solid #989898;
+    margin: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+
+#TOSW_box {
+    width: 90%;
+    border: 5px solid silver;
+    margin: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+}
+
+#container {
+    width: 100%;
+    margin: 2px;
+}
+
+#one, #two, #three {
+    padding-bottom: 1%;
+    margin: 2px;
+    width: 50%;
+    vertical-align: top;
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+}
+
+footer {
+    position: bottom;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    width: 100%;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+#p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.footer-bottom {
+    background: #000;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.footer-bottom p {
+    text-align: center;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom p a{
+    color: #44bae8;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.bold {
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+    display: flex;
+}
+
+#socials {
+    padding: 20px;
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+#socials li {
+    padding: 10px;
+}
